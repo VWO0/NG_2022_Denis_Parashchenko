@@ -1,14 +1,14 @@
-print ("Enter a")
+print ("Number_1")
 Number_1 = float(input("Enter Number_1"))
-print ("Enter b")
+print ("Number_2")
 Number_2 = float(input("Enter Number_2"))
 print ("Select operation")
-print ("1 = add a+b")
-print ("2 = Subtract a-b")
-print("3.Multiply a*b")
-print("4.Divide a/b")
+print ("1 = add Number_1+Number_2")
+print ("2 = Subtract Number_1-Number_2")
+print("3.Multiply Number_1*Number_2")
+print("4.Divide Number_1/Number_2")
 operation =input("Select operation")
-с = ""
+
 if operation == "+" :
     print (Number_1 + Number_2)
 elif operation == "-" :
@@ -17,7 +17,7 @@ elif operation == "*" :
     print (Number_1 * Number_2)
 elif operation == "/" :
     print (Number_1 / Number_2)
-    if b == 0:
+    if Number_2 == 0:
         print ("Error, division by zero")
 else:
     print ("Mistakes make us stronger.")
