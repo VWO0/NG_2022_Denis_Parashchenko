@@ -2,11 +2,7 @@ print ("Number_1")
 Number_1 = float(input("Enter Number_1"))
 print ("Number_2")
 Number_2 = float(input("Enter Number_2"))
-print ("Select operation")
-print ("1 = add Number_1+Number_2")
-print ("2 = Subtract Number_1-Number_2")
-print("3.Multiply Number_1*Number_2")
-print("4.Divide Number_1/Number_2")
+print ("Select operation +,-,*,/")
 operation =input("Select operation")
 
 if operation == "+" :
