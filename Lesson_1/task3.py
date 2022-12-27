@@ -1,5 +1,9 @@
-Seconds = float(input("Enter seconds"))
-print("Select operation Minutes,Hour,Days")
+import time
+
+print(time.time())
+
+Seconds = time.time()
+print("Select operation-Minutes,Hour,Days")
 operation =input("Select operation")
 if operation == "Minutes" : 
     print( Seconds // 60)
@@ -39,5 +43,3 @@ else:
     print ("⡾⠁⠄⠄⠄⠄⠄⠄⣀⠄⠄⠄⠄⠄⡌⣿⡃⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⣿⣿⠄")
     print ("⠄⠄⠄⢀⠄⠄⠄⣼⠇⠄⠄⠄⠄⠄⣷⢻⡇⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠘⣿⡇")
     print ("⣄⠄⠄⠸⡇⠄⣰⠏⠄⠄⠄⠄⠄⠄⢻⣸⡇⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠛⠓")
-
-    
